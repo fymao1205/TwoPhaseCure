@@ -1,0 +1,10 @@
+useDynLib(TwoPhaseCure, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+import(RcppArmadillo)
+importFrom("stats", "aggregate", "cov", "quantile", "stepfun", "var",
+           "xtabs", "nlm", "optim", "sd", "as.formula", "model.matrix")
+importFrom("dplyr", "right_join")
+importFrom("survival", "coxph")
+importFrom("Matrix", "bdiag")
+importFrom("MASS", "ginv")
+export(twoPhaseCure)

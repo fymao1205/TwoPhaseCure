@@ -1,0 +1,15 @@
+Package: TwoPhaseCure
+Title: TwoPhaseCure
+Version: 0.0.5
+Date: 2023-07-27
+Author: Li Cheung, Fangya Mao
+Depends: R (>= 3.5.0), dplyr, survival, Matrix, MASS
+Description: To select individuals using a two-phase design with failure time processes subject to non-susceptibility.
+Maintainer: William Wheeler <WheelerB@imsweb.com>
+License: GPL-2
+Imports: Rcpp (>= 1.0.10), RcppArmadillo
+LinkingTo: Rcpp, RcppArmadillo
+NeedsCompilation: yes
+Packaged: 2023-07-28 12:46:47 UTC; wheelerwi
+Built: R 4.3.1; x86_64-w64-mingw32; 2023-07-28 12:55:03 UTC; windows
+Archs: x64
